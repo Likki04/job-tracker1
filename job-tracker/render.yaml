@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: job-tracker
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /docs
